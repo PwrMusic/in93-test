@@ -1,0 +1,26 @@
+{
+  "name": "myserver",
+  "private": true,
+  "scripts": {    
+    "server": "npx tsc --project ./tsconfig.node.json && node ./dist/server/index.js",
+    "client": "npx tsc --project ./tsconfig.json"
+  },
+  "dependencies": {
+    "@types/pg": "^8.11.0",
+    "@types/three": "^0.158.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "pg": "^8.11.3",
+    "style-loader": "^3.3.3",
+    "three": "^0.158.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "4.15.1"
+  }
+}

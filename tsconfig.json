@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": [
+      "ES2022",
+      "DOM"
+    ],
+    "downlevelIteration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": false,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "rootDirs": ["."],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "declaration": true,
+    "newLine": "lf",
+    "outDir": "./dist"
+  },
+  "include": ["./src/client/**/*"],
+  "exclude": []
+}
